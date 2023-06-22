@@ -1,0 +1,25 @@
+
+nav{
+    background-color: #6CAB8A;
+    font-family: sans-serif;
+}
+
+nav ul{
+    list-style: none;/*quitar los puntos de lista desordenada*/
+}
+
+nav li{
+    display: inline-block; /*poner en linea*/
+}
+
+nav a{
+    display: block; /*ganar padding arriba y abajo*/
+    padding: 10px;
+    color: white;
+    text-decoration: none; /*quitas el subrayado del enlace*/
+}
+
+nav a:hover{
+    background-color: grey;
+}
+

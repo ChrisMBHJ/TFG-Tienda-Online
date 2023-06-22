@@ -1,0 +1,23 @@
+#principal {
+    width: 100%; 
+    height: 80vh;
+    background-image: url(pictures/muebles.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+h1{
+    text-align: center;
+}
+
+#mensaje{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    width: 50%;
+    background-color: rgba(232, 221, 196 ,0.8);
+    border-radius: 10px;
+    color: #6CAB8A;
+}
+

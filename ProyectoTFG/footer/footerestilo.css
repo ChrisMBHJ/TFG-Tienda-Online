@@ -1,0 +1,31 @@
+#pie {
+    display: flex;
+    justify-content: center;
+    background-color:#6CAB8A;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    width:100%;
+    padding-top: 5px;
+    position: absolute;
+    bottom:0;
+    
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+}
+
+#lista{
+    list-style: none;
+    justify-content: center;
+}
+
+#lista > li {
+    display: inline-block;
+    padding-inline: 10px;
+}
+
+a{
+    color: white;
+}

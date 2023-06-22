@@ -1,0 +1,151 @@
+body {
+    background-color: #FFEFD5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: calc(33.33% - 20px); /* 33.33% para mostrar 3 productos por línea */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+.item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #6CAB8A;
+}
+
+h2 {
+    color: #6CAB8A;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #666;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajustar la imagen al tamaño del contenedor */
+}
+
+input[type="button"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #6CAB8A;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+.carrito {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carrito table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.carrito th, .carrito td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.carrito th {
+    background-color: #f2f2f2;
+}
+
+.carrito tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.carrito tr:hover {
+    background-color: #f5f5f5;
+}
+
+.carrito td:last-child {
+    text-align: right;
+}
+
+.carrito input[type="submit"] {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.carrito input[type="submit"]:hover {
+    background-color: #45a049;
+    
+}
+
+.carrito .total {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.carrito .vaciar-carrito {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #FF4136;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 10px;
+   
+}
+
+.carrito .vaciar-carrito:hover {
+    background-color: #d32f2a;
+}
